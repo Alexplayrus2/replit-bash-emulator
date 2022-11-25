@@ -16,7 +16,9 @@ echo 2: Boot with file explorer
 read choice
 if [[ "$choice" == 1 ]]; then
 firefox
+sh openother.sh
 fi
 if [[ "$choice" == 2 ]]; then
 wine explorer ./
+sh openother.sh
 fi
